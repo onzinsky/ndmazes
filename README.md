@@ -30,11 +30,13 @@ In fact, generating the graph is easy compared to finding a way of displaying th
 
 **Basic usage:**
 
-	-n 		Number of nodes in each side of the squares. 
+	-n 		Number of nodes in each side of the squares. Default is 3. 
+			The example below will create a 124x124 2D maze.
 			Example: ./generator -n 124
 
 
-	-d 		Number of dimensions.
+	-d 		Number of dimensions. Default is 2.
+			The example below will create a 4D 3x3x3x3 maze.
 			Example: ./generator -d 4
 
 			Can use both: ./generator -n 3 -d 4
