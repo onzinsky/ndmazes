@@ -2,7 +2,7 @@
 
 ## Acknowledgements:
 
-- Kruskal code from CodeGeeks. The url is in kruskal.cpp
+- Kruskal code from CodeGeeks. Source in kruskal.cpp
 - ClearScreen code is from another site. Source in clear_screen.cpp.
 - Some other stuff like random number generator or time measuring are also from some other sources I will write down later.
 
