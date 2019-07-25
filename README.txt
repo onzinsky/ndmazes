@@ -1,4 +1,6 @@
-##Acknowledgements:
+# nD maze generator
+
+## Acknowledgements:
 
 - Kruskal code from CodeGeeks. The url is in kruskal.cpp
 - ClearScreen code is from another site. Source in clear_screen.cpp.
@@ -6,14 +8,15 @@
 
 
 
-##Status:
+## Status:
 
 THIS IS A WORK IN PROGRESS: first working version of the generator. I wanted to prove it could work first. 
 Now is the time to improve it.
 
 
+## User Manual
 
-##Basic usage:
+**Basic usage:**
 
 	-n 			Number of nodes in each side of the squares. 
 				Example: ./generator -n 124
@@ -24,7 +27,7 @@ Now is the time to improve it.
 
 				Can use both: ./generator -n 3 -d 4
 
-##Other stuff:
+**Other stuff:**
 
 	-testing	Will execute iterations. Needs three extra params:
 				Example: -testing 10 100 5
@@ -53,7 +56,7 @@ Now is the time to improve it.
 	
 
 
-##Example 4D, 3x3x3x3:
+## Example 4D, 3x3x3x3:
 
  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * * 
  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * * 
