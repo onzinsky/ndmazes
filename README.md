@@ -1,4 +1,6 @@
-## nD perfect maze generator
+### nD perfect maze generator
+
+#### Intro
 
 I was trying to prove that using the Kruskal algorithm, it was possible to generate nD mazes. I started off generating 2D, then I thought of generating 3D, and when I got it, I thought *what about higher dimensions?*
 
@@ -9,21 +11,22 @@ The Kruskal algorithm remains unchanged for any D. The difficult parts are:
 
 In fact, generating the graph is easy compared to finding a way of displaying the nD mazes that hold for any dimension. I mean, there is only one function that will print the maze regardless of the number of dimensions. So I guess the difficult part was really designing and implementing that.
 
-### Acknowledgements:
+
+#### Notes
+
+1. I am not particularly proficient in C++ but I wanted to try it out. Which means probably some conventions are way off.
+2. This is the first working version, so its **far from perfection**.
+3. I developed this using vscode, and am uploading vscode files in case anyone wants to know how I'm compiling.
+
+
+#### Acknowledgements:
 
 - Kruskal code from CodeGeeks. Source in kruskal.cpp
 - ClearScreen code is from another site. Source in clear_screen.cpp.
 - Some other stuff like random number generator or time measuring are also from some other sources I will write down later.
 
 
-
-### Status:
-
-THIS IS A WORK IN PROGRESS: first working version of the generator. I wanted to prove it could work first. 
-Now is the time to improve it.
-
-
-### User Manual
+#### User Manual:
 
 **Basic usage:**
 
@@ -63,7 +66,7 @@ Now is the time to improve it.
 			-s-t	Stop time. Time in millies the program will stop.
 
 
-### Example 2D, 3x3
+#### Example 2D, 3x3
 
 ```
  * * * * * * * 
@@ -75,8 +78,8 @@ Now is the time to improve it.
  * * * * * * * 
 ```
 
-### Example 3D, 3x3x3
 
+#### Example 3D, 3x3x3
 
 ```
  * * * * * * * 
@@ -137,7 +140,7 @@ Now is the time to improve it.
 ```
 
 
-### Example 4D, 3x3x3x3:
+#### Example 4D, 3x3x3x3:
 ```
  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * * 
  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * * 
@@ -196,7 +199,7 @@ Now is the time to improve it.
  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * * 
 ```
 
-### Example 5D, 3x3x3x3x3
+#### Example 5D, 3x3x3x3x3
 
 ```
  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * *  * * * * * * * 
