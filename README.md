@@ -14,9 +14,9 @@ In fact, generating the graph is easy compared to finding a way of displaying th
 
 #### Notes
 
-1. I am not particularly proficient in C++ but I wanted to try it out. Which means probably some conventions are way off.
-2. This is the first working version, so its **far from perfection**. Any help will be appreciated.
-3. I developed this using vscode, and am uploading vscode files in case anyone wants to know how I'm compiling.
+- I am not particularly proficient in C++ but I wanted to try it out. Which means probably some conventions are way off.
+- This is the first working version, so its **far from perfection**. Any help will be appreciated.
+- I developed this using vscode, and am uploading vscode files in case anyone wants to know how I'm compiling.
 
 
 #### Acknowledgements:
