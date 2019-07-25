@@ -6,8 +6,8 @@ I was trying to prove that using the Kruskal algorithm, it was possible to gener
 
 The Kruskal algorithm remains unchanged for any D. The difficult parts are:
 
-- generate graphs so we can later interpret the MST returned by Kruskal as an nD maze (in generator.cpp, function `init_graph`).
-- print MST as nD mazes (in *generator.cpp*, function `print_maze`).
+- generating graphs so we can later interpret the MST returned by Kruskal as an nD maze (in generator.cpp, function `init_graph`).
+- printing MST as nD mazes (in *generator.cpp*, function `print_maze`).
 
 In fact, generating the graph is easy compared to finding a way of displaying the nD mazes that hold for any dimension. I mean, there is only one function that will print the maze regardless of the number of dimensions. So I guess the difficult part was really designing and implementing that.
 
@@ -15,7 +15,7 @@ In fact, generating the graph is easy compared to finding a way of displaying th
 #### Notes
 
 1. I am not particularly proficient in C++ but I wanted to try it out. Which means probably some conventions are way off.
-2. This is the first working version, so its **far from perfection**.
+2. This is the first working version, so its **far from perfection**. Any help will be appreciated.
 3. I developed this using vscode, and am uploading vscode files in case anyone wants to know how I'm compiling.
 
 
