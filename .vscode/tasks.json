@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build with Clang",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-stdlib=libc++",
+                "generator.cpp",
+                "main.cpp",
+                "graph.cpp",
+                "union_find.cpp",
+                "kruskal.cpp",
+                "clear_screen.cpp",
+                "-o",
+                "generator",
+                "--debug"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "gcc build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            }
+        }
+    ]
+}
