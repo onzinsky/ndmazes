@@ -1,6 +1,15 @@
-# nD maze generator
+## nD perfect maze generator
 
-## Acknowledgements:
+I was trying to prove that using the Kruskal algorithm, it was possible to generate nD mazes. I started off generating 2D, then I thought of generating 3D, and when I got it, I thought *what about higher dimensions?*
+
+The Kruskal algorithm remains unchanged for any D. The difficult parts are:
+
+- generate graphs so we can later interpret the MST returned by Kruskal as an nD maze (in generator.cpp, function `init_graph`).
+- print MST as nD mazes (in *generator.cpp*, function `print_maze`).
+
+In fact, generating the graph is easy compared to finding a way of displaying the nD mazes that hold for any dimension. I mean, there is only one function that will print the maze regardless of the number of dimensions. So I guess the difficult part was really designing and implementing that.
+
+### Acknowledgements:
 
 - Kruskal code from CodeGeeks. Source in kruskal.cpp
 - ClearScreen code is from another site. Source in clear_screen.cpp.
@@ -8,13 +17,13 @@
 
 
 
-## Status:
+### Status:
 
 THIS IS A WORK IN PROGRESS: first working version of the generator. I wanted to prove it could work first. 
 Now is the time to improve it.
 
 
-## User Manual
+### User Manual
 
 **Basic usage:**
 
@@ -67,6 +76,7 @@ Now is the time to improve it.
 ```
 
 ### Example 3D, 3x3x3
+
 
 ```
  * * * * * * * 
