@@ -95,9 +95,9 @@ int main(int argc, char *argv[])
 
 
 		// Init graph
-		ti1 = high_resolution_clock::now();
+		auto ti1 = high_resolution_clock::now();
 		E = generator.init_graph(&g, n, d, cre_watch, gen_steps, stop_time);
-		ti2 = high_resolution_clock::now();
+		auto ti2 = high_resolution_clock::now();
 		auto dur_ini = duration_cast<milliseconds>( ti2 - ti1 ).count(); // t.inicializacion
 		
 
